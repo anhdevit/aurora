@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9BD63822AD85C72835B529A /* libPods-aurora-auroraUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC5429DB4C0539EA485858E /* libPods-aurora-auroraUITests.a */; };
+		BBDB19DE9CCBF16ECB0D2EAC /* libPods-aurora.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 219E2B22113E6C80421D2EC3 /* libPods-aurora.a */; };
+		CC2F3FBB2538B0C00014DBAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC2F3FBA2538B0C00014DBAE /* GoogleService-Info.plist */; };
 		CCECD98B2538AC8D002A1250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD98A2538AC8D002A1250 /* AppDelegate.swift */; };
 		CCECD98D2538AC8D002A1250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD98C2538AC8D002A1250 /* SceneDelegate.swift */; };
 		CCECD98F2538AC8D002A1250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD98E2538AC8D002A1250 /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		CCECD99A2538AC8E002A1250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECD9982538AC8E002A1250 /* LaunchScreen.storyboard */; };
 		CCECD9A52538AC8E002A1250 /* auroraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD9A42538AC8E002A1250 /* auroraTests.swift */; };
 		CCECD9B02538AC8E002A1250 /* auroraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD9AF2538AC8E002A1250 /* auroraUITests.swift */; };
+		E7B483C04D53D70BB65A07B1 /* libPods-auroraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA7708BF2E3BFBF64E8B1A9 /* libPods-auroraTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F10175A2DD8EF7343400FD7 /* Pods-aurora-auroraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aurora-auroraUITests.release.xcconfig"; path = "Target Support Files/Pods-aurora-auroraUITests/Pods-aurora-auroraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		219E2B22113E6C80421D2EC3 /* libPods-aurora.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aurora.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2407CE3132CE76F613EB4AA0 /* Pods-auroraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auroraTests.release.xcconfig"; path = "Target Support Files/Pods-auroraTests/Pods-auroraTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DC5429DB4C0539EA485858E /* libPods-aurora-auroraUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aurora-auroraUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E109FBB2BC2A8B73CAF30F1 /* Pods-aurora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aurora.release.xcconfig"; path = "Target Support Files/Pods-aurora/Pods-aurora.release.xcconfig"; sourceTree = "<group>"; };
+		5BA7708BF2E3BFBF64E8B1A9 /* libPods-auroraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-auroraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07D0D3070CC96B5308BF33D /* Pods-aurora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aurora.debug.xcconfig"; path = "Target Support Files/Pods-aurora/Pods-aurora.debug.xcconfig"; sourceTree = "<group>"; };
+		C1CFA8A89108EF8B108C3B60 /* Pods-auroraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auroraTests.debug.xcconfig"; path = "Target Support Files/Pods-auroraTests/Pods-auroraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC2F3FBA2538B0C00014DBAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CCECD9872538AC8D002A1250 /* aurora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aurora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCECD98A2538AC8D002A1250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCECD98C2538AC8D002A1250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +64,7 @@
 		CCECD9AB2538AC8E002A1250 /* auroraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auroraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCECD9AF2538AC8E002A1250 /* auroraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auroraUITests.swift; sourceTree = "<group>"; };
 		CCECD9B12538AC8E002A1250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E615910E611E3BD6BBA92E2E /* Pods-aurora-auroraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aurora-auroraUITests.debug.xcconfig"; path = "Target Support Files/Pods-aurora-auroraUITests/Pods-aurora-auroraUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDB19DE9CCBF16ECB0D2EAC /* libPods-aurora.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B483C04D53D70BB65A07B1 /* libPods-auroraTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9BD63822AD85C72835B529A /* libPods-aurora-auroraUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				CCECD9A32538AC8E002A1250 /* auroraTests */,
 				CCECD9AE2538AC8E002A1250 /* auroraUITests */,
 				CCECD9882538AC8D002A1250 /* Products */,
+				EF95B5B63394D733347D69EF /* Pods */,
+				DE4DFF6149724FBCCD1048A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,7 @@
 		CCECD9892538AC8D002A1250 /* aurora */ = {
 			isa = PBXGroup;
 			children = (
+				CC2F3FBA2538B0C00014DBAE /* GoogleService-Info.plist */,
 				CCECD98A2538AC8D002A1250 /* AppDelegate.swift */,
 				CCECD98C2538AC8D002A1250 /* SceneDelegate.swift */,
 				CCECD98E2538AC8D002A1250 /* ViewController.swift */,
@@ -131,6 +151,30 @@
 			path = auroraUITests;
 			sourceTree = "<group>";
 		};
+		DE4DFF6149724FBCCD1048A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219E2B22113E6C80421D2EC3 /* libPods-aurora.a */,
+				3DC5429DB4C0539EA485858E /* libPods-aurora-auroraUITests.a */,
+				5BA7708BF2E3BFBF64E8B1A9 /* libPods-auroraTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF95B5B63394D733347D69EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C07D0D3070CC96B5308BF33D /* Pods-aurora.debug.xcconfig */,
+				4E109FBB2BC2A8B73CAF30F1 /* Pods-aurora.release.xcconfig */,
+				E615910E611E3BD6BBA92E2E /* Pods-aurora-auroraUITests.debug.xcconfig */,
+				1F10175A2DD8EF7343400FD7 /* Pods-aurora-auroraUITests.release.xcconfig */,
+				C1CFA8A89108EF8B108C3B60 /* Pods-auroraTests.debug.xcconfig */,
+				2407CE3132CE76F613EB4AA0 /* Pods-auroraTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCECD9B42538AC8E002A1250 /* Build configuration list for PBXNativeTarget "aurora" */;
 			buildPhases = (
+				079E66C2EC5587A5AABD54EA /* [CP] Check Pods Manifest.lock */,
 				CCECD9832538AC8D002A1250 /* Sources */,
 				CCECD9842538AC8D002A1250 /* Frameworks */,
 				CCECD9852538AC8D002A1250 /* Resources */,
@@ -155,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCECD9B72538AC8E002A1250 /* Build configuration list for PBXNativeTarget "auroraTests" */;
 			buildPhases = (
+				608156D4A9D2DEE9932781EA /* [CP] Check Pods Manifest.lock */,
 				CCECD99C2538AC8E002A1250 /* Sources */,
 				CCECD99D2538AC8E002A1250 /* Frameworks */,
 				CCECD99E2538AC8E002A1250 /* Resources */,
@@ -173,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCECD9BA2538AC8E002A1250 /* Build configuration list for PBXNativeTarget "auroraUITests" */;
 			buildPhases = (
+				61AC8AE9A623CEDC44732699 /* [CP] Check Pods Manifest.lock */,
 				CCECD9A72538AC8E002A1250 /* Sources */,
 				CCECD9A82538AC8E002A1250 /* Frameworks */,
 				CCECD9A92538AC8E002A1250 /* Resources */,
@@ -236,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCECD99A2538AC8E002A1250 /* LaunchScreen.storyboard in Resources */,
+				CC2F3FBB2538B0C00014DBAE /* GoogleService-Info.plist in Resources */,
 				CCECD9972538AC8E002A1250 /* Assets.xcassets in Resources */,
 				CCECD9922538AC8D002A1250 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +304,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079E66C2EC5587A5AABD54EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aurora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608156D4A9D2DEE9932781EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-auroraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61AC8AE9A623CEDC44732699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aurora-auroraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCECD9832538AC8D002A1250 /* Sources */ = {
@@ -436,6 +553,7 @@
 		};
 		CCECD9B52538AC8E002A1250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07D0D3070CC96B5308BF33D /* Pods-aurora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +571,7 @@
 		};
 		CCECD9B62538AC8E002A1250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E109FBB2BC2A8B73CAF30F1 /* Pods-aurora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +589,7 @@
 		};
 		CCECD9B82538AC8E002A1250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CFA8A89108EF8B108C3B60 /* Pods-auroraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +611,7 @@
 		};
 		CCECD9B92538AC8E002A1250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2407CE3132CE76F613EB4AA0 /* Pods-auroraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +633,7 @@
 		};
 		CCECD9BB2538AC8E002A1250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E615910E611E3BD6BBA92E2E /* Pods-aurora-auroraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +653,7 @@
 		};
 		CCECD9BC2538AC8E002A1250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F10175A2DD8EF7343400FD7 /* Pods-aurora-auroraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
